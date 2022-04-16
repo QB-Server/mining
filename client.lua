@@ -4,7 +4,7 @@ function CreateBlips()
 		if Config.Locations[k].blipTrue then
 			local blip = AddBlipForCoord(v.location)
 			SetBlipAsShortRange(blip, true)
-			SetBlipSprite(blip, 527)
+			SetBlipSprite(blip, 618)
 			SetBlipColour(blip, 81)
 			SetBlipScale(blip, 0.7)
 			SetBlipDisplay(blip, 6)
